@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dogs-card-list/static/css/main.f48b988d.css",
+    "main.js": "/dogs-card-list/static/js/main.c9536bc5.js",
+    "static/js/787.6f9c4f37.chunk.js": "/dogs-card-list/static/js/787.6f9c4f37.chunk.js",
+    "index.html": "/dogs-card-list/index.html",
+    "main.f48b988d.css.map": "/dogs-card-list/static/css/main.f48b988d.css.map",
+    "main.c9536bc5.js.map": "/dogs-card-list/static/js/main.c9536bc5.js.map",
+    "787.6f9c4f37.chunk.js.map": "/dogs-card-list/static/js/787.6f9c4f37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f48b988d.css",
+    "static/js/main.c9536bc5.js"
+  ]
+}
