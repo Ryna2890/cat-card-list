@@ -124,7 +124,7 @@ function App() {
 
   useEffect(() => {
     refreshFavorites();
-  }, []);
+  }, [refreshFavorites]);
 
   return (
     <div className={"layout"}>
@@ -140,7 +140,12 @@ function App() {
       </div>
       <div className="cards_wrapper">
         {dogsData?.map((data) => (
-          <Card onDelete={handleDelete} card={data} onLike={handleLike} />
+          <Card
+            key={data.breed?.id}
+            onDelete={handleDelete}
+            card={data}
+            onLike={handleLike}
+          />
         ))}
       </div>
       {isLoadingSmth && <div className="loading">Loading...</div>}
