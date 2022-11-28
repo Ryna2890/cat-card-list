@@ -127,9 +127,9 @@ function App() {
   }, []);
 
   return (
-    <div className={"wrapper"}>
+    <div className={"layout"}>
       <div className={"navigation"}>
-        <div className="helpers">
+        <div className="helpers_buttons">
           <div onClick={refreshFavorites}>Refresh list</div>
           <div onClick={clearVotes}>Clear likes</div>
           <div onClick={clearFavs}>Clear list</div>
